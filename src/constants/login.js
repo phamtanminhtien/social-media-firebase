@@ -1,0 +1,9 @@
+const SIGN_IN = 0x00000001;
+const REGISTER = 0x00000002;
+const FORGOT = 0x00000003;
+
+const LOGIN = { SIGN_IN, REGISTER, FORGOT };
+
+export { SIGN_IN, REGISTER, FORGOT };
+
+export default LOGIN;

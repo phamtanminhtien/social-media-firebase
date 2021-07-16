@@ -1,8 +1,12 @@
 import "./App.css";
-import { auth, db, storage } from "./firebase/config";
+import Login from "./screens/Login";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Login />
+    </div>
+  );
 }
 
 export default App;
